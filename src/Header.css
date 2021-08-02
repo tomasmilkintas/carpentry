@@ -1,0 +1,100 @@
+.headerSection {
+    width: 80%;
+    height: 75vh;
+    margin: 0vh auto 2vh;
+    border: 1px solid black;
+    background-color: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.leftSide {
+    width: 49.5%;
+    height: 100%;
+    background-color: tomato;
+}
+
+.leftImage {
+    width: 100%;
+    height: 70%;
+    background-color: chocolate;
+}
+
+.headerLeftImg {
+    width: 100%;
+    height: 100%;
+}
+
+.leftImgDescr {
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+
+.title,
+.text {
+    padding-top: 1vh;
+    padding-left: 2vw;
+}
+
+.title h2 {
+    padding: 1vw 0;
+}
+
+.text p {
+    padding-top: 1vw;
+    width: 90%;
+    color: #6c6c6c;
+}
+
+/* right side */
+
+.rightSide {
+    width: 49.5%;
+    height: 100%;
+    background-color: tomato;
+}
+
+.rightImage {
+    width: 100%;
+    height: 70%;
+    background-color: chocolate;
+}
+
+.headerRightImg {
+    width: 100%;
+    height: 100%;
+}
+
+.rightImgDescr {
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+
+.rightTitle,
+.rightText {
+    padding-top: 1vh;
+    padding-left: 2vw;
+}
+
+.rightTitle h2 {
+    padding: 1vw 0;
+}
+
+.rightText p {
+    padding-top: 1vw;
+    width: 90%;
+    color: #6c6c6c;
+}

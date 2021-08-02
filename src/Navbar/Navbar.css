@@ -1,0 +1,40 @@
+.navbar {
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 16vh;
+    background-color: #3e3f3a;
+    display: flex;
+    flex-direction: row;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 14vh;
+    width: auto;
+}
+
+.navArea {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20vw;
+}
+
+.navLinks {
+    color: white;
+    font-size: 1vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    padding: 1vw;
+    font-size: 2vw;
+}
