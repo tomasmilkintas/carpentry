@@ -1,10 +1,17 @@
 import React from "react";
 import "./Footer.css";
+import imgBG from "./../assets/woodBg.jpeg";
 
 const Footer = () => {
     return (
         <div className="footer" id="contactUs">
-            <div className="contactInfo"></div>
+            <img src={imgBG} alt="" className="bgImg" />
+
+            <div className="contactInfo">
+                <p>Email: xxxx@live.co.uk</p>
+                <p>Contact No: 07818443629</p>
+                <p>Based in London SE area</p>
+            </div>
             <div className="footerLogo">
                 <a href="top">TOP</a>
             </div>

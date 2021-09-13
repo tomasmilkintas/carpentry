@@ -10,11 +10,7 @@ function App() {
                 <Navbar id="top" />
 
                 <div className="mainBody">
-                    {/* <div className="headerSection" id="home"> */}
                     <Header id="home" />
-                    {/* </div> */}
-                    <div className="mainSection" id="main"></div>
-                    <div className="lastSection"></div>
                 </div>
 
                 <Footer id="contactUs" />
