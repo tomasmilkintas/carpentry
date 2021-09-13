@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import imgBG from "./../assets/woodBg.jpeg";
+// import map from "./../assets/londonMap.png";
 
 const Footer = () => {
     return (
@@ -15,13 +16,9 @@ const Footer = () => {
             <div className="footerLogo">
                 <a href="top">TOP</a>
             </div>
-            <div className="footerMap">
-                <img
-                    src="https://www.logicdesign.co.uk/wp-content/uploads/retro-google-map-860x512.jpg"
-                    alt="google maps"
-                    className="mapImg"
-                />
-            </div>
+            {/* <div className="footerMap">
+                <img src={map} alt="google maps" className="mapImg" />
+            </div> */}
         </div>
     );
 };

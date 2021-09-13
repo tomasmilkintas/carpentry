@@ -1,29 +1,64 @@
-import React from "react";
+import React, { useContext, useState } from "react";
 import "./Navbar.css";
-import woodworkLogo from "../assets/wood.jpeg";
+
+import { GiHammerNails } from "react-icons/gi";
+import { GlobalContext } from "../App";
 
 const Navbar = () => {
+    const global = useContext(GlobalContext);
+
+    const [shown, setShown] = useState(false);
+
+    const toggleNav = () => {
+        setShown(!shown);
+    };
+
     return (
-        <div className="navbar" id="top">
-            <div className="logoContainer">
-                {/* <img className="logo" src={woodworkLogo} alt="logo" /> */}
-                <h2 className="logoHeading">Vacys Milkintas</h2>
+        <div>
+            <div className="navbar" id="top">
+                <div className="logoContainer">
+                    <h2 className="logoHeading">Vacys Milkintas</h2>
+                </div>
+                <div className="navArea">
+                    {shown && !global.mobileView && (
+                        <nav>
+                            <ul className="navLinks">
+                                <a href="#home" className="navLink">
+                                    Home
+                                </a>
+                                <a href="#main" className="navLink">
+                                    Specialties
+                                </a>
+                                <a href="#contactUs" className="navLink">
+                                    Contact us
+                                </a>
+                            </ul>
+                        </nav>
+                    )}
+                    <GiHammerNails
+                        size={global.mobileView ? "1.5rem" : "2rem"}
+                        className="hammerLogo"
+                        onClick={toggleNav}
+                    />
+                </div>
             </div>
-            <div className="navArea">
-                <nav>
-                    <ul className="navLinks">
-                        <a href="#home" className="navLink">
-                            Home
-                        </a>
-                        <a href="#main" className="navLink">
-                            Specialties
-                        </a>
-                        <a href="#contactUs" className="navLink">
-                            Contact us
-                        </a>
-                    </ul>
-                </nav>
-            </div>
+            {shown && global.mobileView && (
+                <div className="navAreaCol">
+                    <nav>
+                        <ul className="navLinksCol">
+                            <a href="#home" className="navLinkCol">
+                                Home
+                            </a>
+                            <a href="#main" className="navLinkCol">
+                                Specialties
+                            </a>
+                            <a href="#contactUs" className="navLinkCol">
+                                Contact us
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+            )}
         </div>
     );
 };

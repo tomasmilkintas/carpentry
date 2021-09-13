@@ -3,20 +3,46 @@ import Footer from "./Footer/Footer";
 import Header from "./Header";
 import Navbar from "./Navbar/Navbar";
 
-function App() {
+import React, { createContext, useEffect, useState } from "react";
+
+export const GlobalContext = createContext();
+
+const App = () => {
+    const [mobileView, setMobileView] = useState(window.innerWidth < 426);
+
+    const onResize = (e) => {
+        let isProcess = false;
+        if (isProcess) return;
+        isProcess = true;
+        requestAnimationFrame(() => {
+            setMobileView(window.innerWidth < 426);
+            isProcess = false;
+        });
+    };
+
+    useEffect(() => {
+        window.addEventListener("resize", onResize);
+
+        return () => {
+            window.removeEventListener("resize", onResize);
+        };
+    }, []);
+
     return (
-        <div className="App">
-            <div>
-                <Navbar id="top" />
+        <GlobalContext.Provider value={{ mobileView }}>
+            <div className="App">
+                <div>
+                    <Navbar id="top" />
 
-                <div className="mainBody">
-                    <Header id="home" />
+                    <div className="mainBody">
+                        <Header id="home" />
+                    </div>
+
+                    <Footer id="contactUs" />
                 </div>
-
-                <Footer id="contactUs" />
             </div>
-        </div>
+        </GlobalContext.Provider>
     );
-}
+};
 
 export default App;

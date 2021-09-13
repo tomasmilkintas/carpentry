@@ -2,7 +2,6 @@
     width: min(80%, 90rem);
     /* height: 65vh; */
     margin: 0vh auto 2vh;
-    border: 1px solid black;
     border-radius: 10px;
     background-color: var(--bg-header);
     padding: 4em 0;
