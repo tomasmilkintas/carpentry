@@ -18,14 +18,10 @@
 }
 
 .contactInfo {
-    /* width: 32%; */
     width: min(90%, 90rem);
     height: 35vh;
-    background-color: #616161;
+    background-color: #797979;
     color: white;
-    font-variant: small-caps;
-    font-weight: 300;
-    font-size: 1.3rem;
 
     display: flex;
     flex-direction: column;
@@ -34,16 +30,28 @@
     z-index: 10;
 }
 
-.contactInfo > div > p {
+h1 {
+    font-variant: petite-caps;
+    padding: 1rem;
+}
+
+.contactDetails {
+    font-variant: small-caps;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.contactDetails > p {
     padding: 1rem;
 }
 
 @media (max-width: 426px) {
-    .contactInfo {
-        font-size: 1.2rem;
+    .contactDetails {
+        font-size: 0.9rem;
     }
 
-    .contactInfo > div > p {
+    .contactDetails > p {
         padding: 0.7rem;
     }
 }
@@ -59,11 +67,16 @@
 
 .copyright {
     /* border-top: 1px solid rgb(234, 234, 234); */
-    margin-top: 2rem;
+    /* margin-top: 1rem; */
     font-size: 1rem;
+    font-variant: small-caps;
 }
 
-.copyright > hr {
+.copyright > p {
+    padding: 1rem;
+}
+
+hr {
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -71,7 +84,7 @@
 }
 
 .copyright > p > span {
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
 }
 

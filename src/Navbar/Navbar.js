@@ -50,7 +50,7 @@ const Navbar = () => {
                                 Home
                             </a>
                             <a href="#main" className="navLinkCol">
-                                Specialties
+                                Pricing
                             </a>
                             <a href="#contactUs" className="navLinkCol">
                                 Contact us
