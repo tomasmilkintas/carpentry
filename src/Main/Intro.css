@@ -1,0 +1,103 @@
+.intro {
+    width: 100%;
+    height: 40rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.blob {
+    width: 22%;
+    height: 100%;
+    background-color: #bababa;
+    margin-left: 10%;
+    position: absolute;
+    z-index: 20;
+}
+
+@media (max-width: 1266px) {
+    .blob {
+        width: 26%;
+    }
+}
+
+@media (max-width: 426px) {
+    .blob {
+        width: 8rem;
+    }
+}
+
+.introBlock {
+    position: relative;
+    z-index: 22;
+    width: 60%;
+    padding: 0 15% 0 25%;
+    color: #474747;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width: 1326px) {
+    .introBlock {
+        flex-direction: column;
+        align-items: baseline;
+    }
+}
+
+.introHeading {
+    font-size: 4.5rem;
+    width: 60%;
+}
+
+@media (max-width: 1426px) {
+    .introHeading {
+        font-size: 3.5rem;
+        width: 20%;
+    }
+}
+
+@media (max-width: 426px) {
+    .introHeading {
+        font-size: 3rem;
+        width: 20%;
+    }
+}
+
+.introText {
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem;
+    width: 70%;
+    font-style: oblique;
+    font-variant: petite-caps;
+    font-weight: 300;
+}
+
+@media (max-width: 1328px) {
+    .introText {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}
+
+.introImg {
+    width: 32rem;
+    height: auto;
+    object-fit: contain;
+    filter: grayscale(1);
+    margin-left: 0rem;
+}
+
+@media (max-width: 1326px) {
+    .introImg {
+        width: 22rem;
+    }
+}
+
+@media (max-width: 526px) {
+    .introImg {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}

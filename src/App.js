@@ -1,9 +1,10 @@
 import "./App.css";
 import Footer from "./Footer/Footer";
-import Header from "./Header";
+import Header from "./Main/Header";
 import Navbar from "./Navbar/Navbar";
 
 import React, { createContext, useEffect, useState } from "react";
+import Intro from "./Main/Intro";
 
 export const GlobalContext = createContext();
 
@@ -35,6 +36,7 @@ const App = () => {
                     <Navbar id="top" />
 
                     <div className="mainBody">
+                        <Intro />
                         <Header id="home" />
                     </div>
 

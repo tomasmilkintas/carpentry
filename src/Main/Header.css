@@ -4,7 +4,7 @@
     margin: 0vh auto 2vh;
     border-radius: 10px;
     background-color: var(--bg-header);
-    padding: 4em 0;
+    /* padding: 4em 0; */
 }
 
 .split {
@@ -38,8 +38,18 @@
 }
 
 .text {
-    padding: 1em;
-    min-width: 10em;
+    padding: 1em 0;
+    width: 60%;
+}
+
+.textHeading {
+    font-size: 3rem;
+}
+
+@media (max-width: 426px) {
+    .text {
+        width: 100%;
+    }
 }
 
 .text > h2 {

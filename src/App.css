@@ -12,6 +12,6 @@
 .mainBody {
     width: auto;
     background-color: var(--bg-primary);
-    padding-top: 2vh;
+    /* padding-top: 2vh; */
     padding-bottom: 2vh;
 }
