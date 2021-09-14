@@ -1,6 +1,7 @@
 :root {
-    --bg-primary: #807e7e;
-    --bg-header: #d3d3d3;
+    /* --bg-primary: #807e7e; */
+    --bg-primary: #c4c4c4;
+    --bg-header: #c4c4c4;
 }
 
 * {

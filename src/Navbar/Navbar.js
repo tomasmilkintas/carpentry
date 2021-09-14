@@ -27,7 +27,7 @@ const Navbar = () => {
                                     Home
                                 </a>
                                 <a href="#main" className="navLink">
-                                    Specialties
+                                    Pricing
                                 </a>
                                 <a href="#contactUs" className="navLink">
                                     Contact us
