@@ -31,12 +31,12 @@
 }
 
 h1 {
-    font-variant: petite-caps;
+    font-variant-caps: petite-caps;
     padding: 1rem;
 }
 
 .contactDetails {
-    font-variant: small-caps;
+    font-variant-caps: small-caps;
     font-weight: 300;
     font-size: 1.2rem;
     margin: 0.5rem 0;
@@ -69,7 +69,7 @@ h1 {
     /* border-top: 1px solid rgb(234, 234, 234); */
     /* margin-top: 1rem; */
     font-size: 1rem;
-    font-variant: small-caps;
+    font-variant-caps: small-caps;
 }
 
 .copyright > p {
