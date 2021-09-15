@@ -1,0 +1,27 @@
+.portfolio {
+    margin: 0vh auto 4vh;
+}
+
+.singleWork {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (max-width: 426px) {
+    .singleWork {
+        flex-direction: column;
+    }
+}
+
+.projectImage {
+    width: 45%;
+    height: auto;
+}
+
+@media (max-width: 426px) {
+    .projectImage {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

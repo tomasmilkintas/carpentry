@@ -36,8 +36,8 @@ const App = () => {
                     <Navbar id="top" />
 
                     <div className="mainBody">
-                        <Intro />
-                        <Header id="home" />
+                        <Intro id="home" />
+                        <Header id="main" />
                     </div>
 
                     <Footer id="contactUs" />

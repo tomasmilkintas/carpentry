@@ -1,40 +1,71 @@
 import React from "react";
 import "./Header.css";
+import Portfolio from "./Portfolio";
+// import HeadingBlobs from "./useful/HeadingBlobs";
+
+import furniture from "./../assets/furniture.jpeg";
+import furniture1 from "./../assets/furniture1.jpeg";
+
+import flooring from "./../assets/flooring.jpeg";
+import stairs3 from "./../assets/stairs3.jpeg";
+
+import loft2 from "./../assets/loft2.jpeg";
+import loft3 from "./../assets/loft3.jpeg";
+
+import kitchen from "./../assets/kitchen.jpeg";
+import kitchen1 from "./../assets/kitchen1.jpeg";
 
 const Header = () => {
     return (
-        <div className="headerSection">
+        <div className="headerSection" id="main">
             <div className="split">
-                {/* <img
-                    src="https://renify.s3.amazonaws.com/system/uploads/images/1712/Stainless_steel_worktops_-_Holte_Kitchens.jpg"
-                    alt="work top"
-                    className="image"
-                /> */}
                 <div className="imgDescr">
                     <div className="text">
                         <h2 className="textHeading">Bespoke furniture</h2>
-
-                        {/* Loft Conversions
-                        Timber Framed Buildings
-                        Doors
-                        Stairs & Balustrades
-                        Kitchens (Supply & Fit)
-                        Flooring (Laminate & Solid) and more
-                        All General Carpentry & Joinery
-                        Handyman Service
-                        Extensions
-                        Renewing, repairing, replacement*/}
-                        {/* <p>
-                            Kitchen units assembled to the highest quality. Lorem ipsum dolor sit
-                            amet consectetur adipisicing elit. Dolorem sequi quis eum blanditiis
-                            alias, ad laudantium dignissimos aliquam? Laudantium rerum ab ex
-                            tempore. Commodi ab veniam voluptatibus reiciendis incidunt, in dolore
-                            odit officia ratione magnam cum quidem voluptate eos est?
-                        </p> */}
                     </div>
                     <div className="blobHorizontal"></div>
                 </div>
             </div>
+
+            <Portfolio image1={furniture} image2={furniture1} />
+
+            <div className="split">
+                <div className="imgDescr">
+                    <div className="blobHorizontal"></div>
+                    <div className="text">
+                        <h2 className="textHeading">Loft conversions</h2>
+                    </div>
+                </div>
+            </div>
+
+            <Portfolio image1={loft2} image2={loft3} />
+
+            <div className="split">
+                <div className="imgDescr">
+                    <div className="text">
+                        <h2 className="textHeading">Flooring, staircases</h2>
+                    </div>
+                    <div className="blobHorizontal"></div>
+                </div>
+            </div>
+
+            <Portfolio image1={flooring} image2={stairs3} />
+
+            <div className="split">
+                <div className="imgDescr">
+                    <div className="blobHorizontal"></div>
+                    <div className="text">
+                        <h2 className="textHeading">Kitchens, extensions</h2>
+                    </div>
+                </div>
+            </div>
+
+            <Portfolio image1={kitchen} image2={kitchen1} />
+
+            {/* <HeadingBlobs text="Bespoke furniture" />
+            <HeadingBlobs text="Loft conversions" />
+            <HeadingBlobs text="Flooring, staircases" />
+            <HeadingBlobs text="Kitchens, extensions" /> */}
         </div>
     );
 };
