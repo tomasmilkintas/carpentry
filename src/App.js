@@ -10,6 +10,7 @@ export const GlobalContext = createContext();
 
 const App = () => {
     const [mobileView, setMobileView] = useState(window.innerWidth < 426);
+    const [ipadView, setIpadView] = useState(window.innerWidth < 726);
 
     const onResize = (e) => {
         let isProcess = false;
@@ -17,6 +18,8 @@ const App = () => {
         isProcess = true;
         requestAnimationFrame(() => {
             setMobileView(window.innerWidth < 426);
+            setIpadView(window.innerWidth < 726);
+
             isProcess = false;
         });
     };
@@ -30,7 +33,7 @@ const App = () => {
     }, []);
 
     return (
-        <GlobalContext.Provider value={{ mobileView }}>
+        <GlobalContext.Provider value={{ mobileView, ipadView }}>
             <div className="App">
                 <div>
                     <Navbar id="top" />

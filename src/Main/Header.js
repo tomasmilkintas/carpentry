@@ -62,6 +62,10 @@ const Header = () => {
 
             <Portfolio image1={kitchen} image2={kitchen1} />
 
+            <div className="link">
+                <a href="top">Back to top</a>
+            </div>
+
             {/* <HeadingBlobs text="Bespoke furniture" />
             <HeadingBlobs text="Loft conversions" />
             <HeadingBlobs text="Flooring, staircases" />

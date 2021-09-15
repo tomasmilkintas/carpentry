@@ -20,7 +20,7 @@ const Navbar = () => {
                     <h2 className="logoHeading">Vacys Milkintas</h2>
                 </div>
                 <div className="navArea">
-                    {shown && !global.mobileView && (
+                    {!global.mobileView && !global.ipadView && (
                         <nav>
                             <ul className="navLinks">
                                 <a href="#home" className="navLink">
@@ -42,7 +42,7 @@ const Navbar = () => {
                     />
                 </div>
             </div>
-            {shown && global.mobileView && (
+            {shown && (global.mobileView || global.ipadView) && (
                 <div className="navAreaCol">
                     <nav>
                         <ul className="navLinksCol">
