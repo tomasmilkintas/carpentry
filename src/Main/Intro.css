@@ -39,7 +39,7 @@
 }
 
 .introBlock > div {
-    font-family: cursive;
+    font-family: ui-sans-serif;
 }
 
 @media (max-width: 1326px) {
