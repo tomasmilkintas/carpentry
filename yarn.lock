@@ -8801,9 +8801,9 @@ postcss-focus-within@^3.0.0:
   dependencies:
     postcss "^7.0.2"
 
-postcss-font-variant-caps@^4.0.0:
+postcss-font-variant@^4.0.0:
   version "4.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-font-variant-caps/-/postcss-font-variant-caps-4.0.0.tgz#71dd3c6c10a0d846c5eda07803439617bbbabacc"
+  resolved "https://registry.yarnpkg.com/postcss-font-variant/-/postcss-font-variant-4.0.0.tgz#71dd3c6c10a0d846c5eda07803439617bbbabacc"
   integrity sha512-M8BFYKOvCrI2aITzDad7kWuXXTm0YhGdP9Q8HanmN4EF1Hmcgs1KK5rSHylt/lUJe8yLxiSwWAHdScoEiIxztg==
   dependencies:
     postcss "^7.0.2"
@@ -9124,7 +9124,7 @@ postcss-preset-env@6.7.0:
     postcss-env-function "^2.0.2"
     postcss-focus-visible "^4.0.0"
     postcss-focus-within "^3.0.0"
-    postcss-font-variant-caps "^4.0.0"
+    postcss-font-variant "^4.0.0"
     postcss-gap-properties "^2.0.0"
     postcss-image-set-function "^3.0.1"
     postcss-initial "^3.0.0"
