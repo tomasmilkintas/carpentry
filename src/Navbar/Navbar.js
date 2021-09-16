@@ -46,13 +46,17 @@ const Navbar = () => {
                 <div className="navAreaCol">
                     <nav>
                         <ul className="navLinksCol">
-                            <a href="#home" className="navLinkCol">
+                            <a href="#home" className="navLinkCol" onClick={() => setShown(false)}>
                                 Home
                             </a>
-                            <a href="#main" className="navLinkCol">
+                            <a href="#main" className="navLinkCol" onClick={() => setShown(false)}>
                                 Services
                             </a>
-                            <a href="#contactUs" className="navLinkCol">
+                            <a
+                                href="#contactUs"
+                                className="navLinkCol"
+                                onClick={() => setShown(false)}
+                            >
                                 Contact us
                             </a>
                         </ul>

@@ -32,6 +32,7 @@
 
 h1 {
     padding: 1rem;
+    font-weight: 300;
 }
 
 .contactDetails {
@@ -79,8 +80,11 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.copyright > p > span {
+span {
     font-weight: 600;
+}
+
+.copyright > p > span {
     cursor: pointer;
 }
 

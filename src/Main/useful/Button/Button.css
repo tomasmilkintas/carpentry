@@ -1,0 +1,26 @@
+.button {
+    padding: 1.3rem 3rem;
+    background-color: #727272;
+    border-radius: 30px;
+    border: none;
+}
+
+.buttonLink {
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-primary);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+@media (max-width: 1026px) {
+    .buttonLink {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 426px) {
+    .buttonLink {
+        font-size: 0.8rem;
+    }
+}

@@ -39,7 +39,7 @@
 }
 
 .introBlock > div {
-    font-family: var(--font-primary);
+    font-family: var(-- font-primary);
 }
 
 @media (max-width: 1326px) {
@@ -71,7 +71,7 @@
 
 .introText {
     font-size: 1.5rem;
-    margin: 1rem 0 2rem;
+    margin: 2rem 0 1rem;
     width: 70%;
     font-weight: 300;
 }
@@ -80,7 +80,6 @@
     .introText {
         width: 100%;
         font-size: 1.2rem;
-        margin-bottom: 4rem;
     }
 }
 
@@ -95,6 +94,7 @@
 @media (max-width: 1326px) {
     .introImg {
         width: 22rem;
+        margin-top: 3rem;
     }
 }
 

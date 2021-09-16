@@ -15,9 +15,15 @@ const Footer = () => {
                     <hr />
                 </div>
                 <div className="contactDetails">
-                    <p>Email: milkv60@hotmail.com</p>
-                    <p>Contact No: 07818443629</p>
-                    <p>Based in London, SE area</p>
+                    <p>
+                        &#183; <span>Email:</span> milkv60@hotmail.com &#183;
+                    </p>
+                    <p>
+                        &#183; <span>Contact No:</span> +447818443629 &#183;
+                    </p>
+                    <p>
+                        &#183; Based in <span>London, SE area</span> &#183;
+                    </p>
                 </div>
                 <div className="copyright">
                     <hr />
