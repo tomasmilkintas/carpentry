@@ -15,6 +15,7 @@ const Intro = () => {
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis animi
                         at ipsam eum natus qui autem! Nemo exercitationem corporis ut?
                     </p>
+                    {/* <button className="introButton">Get in touch</button> */}
                 </div>
                 <img src={carpenter} alt="carpenter" className="introImg" />
             </div>

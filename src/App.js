@@ -38,7 +38,7 @@ const App = () => {
                 <div>
                     <Navbar id="top" />
 
-                    <div className="mainBody">
+                    <div className="mainBody" id="top">
                         <Intro id="home" />
                         <Header id="main" />
                     </div>

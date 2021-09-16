@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="navbar" id="top">
+            <div className="navbar">
                 <div className="logoContainer">
                     <h2 className="logoHeading">Vacys Milkintas</h2>
                 </div>

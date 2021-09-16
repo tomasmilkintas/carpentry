@@ -2,11 +2,17 @@
     /* --bg-primary: #807e7e; */
     --bg-primary: #c4c4c4;
     --bg-header: #c4c4c4;
+    --font-primary: "Raleway", sans-serif;
 }
 
 * {
     margin: 0;
     padding: 0;
+}
+
+html {
+    /* smooth behaviour when pressing on links directing to other parts of the website */
+    scroll-behavior: smooth;
 }
 
 .mainBody {
