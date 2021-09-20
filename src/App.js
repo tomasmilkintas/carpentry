@@ -6,6 +6,10 @@ import Navbar from "./Navbar/Navbar";
 import React, { createContext, useEffect, useState } from "react";
 import Intro from "./Main/Intro";
 
+import furniture from "./assets/furniture.jpeg";
+import furniture1 from "./assets/furniture1.jpeg";
+import collage from "./assets/collage.png";
+
 export const GlobalContext = createContext();
 
 const App = () => {
@@ -40,6 +44,19 @@ const App = () => {
 
                     <div className="mainBody" id="top">
                         <Intro id="home" />
+                        <div className="trialDesign">
+                            <div className="textTest">
+                                <div className="border">
+                                    <h2>Bespoke furniture</h2>
+                                    <p className="textDescr">Custom pieces for timeless spaces</p>
+                                </div>
+                            </div>
+                            <div className="imageTest">
+                                {/* <img src={furniture} alt="carpentryPhoto" className="testImage" />
+                                <img src={furniture1} alt="carpentryPhoto" className="testImage" /> */}
+                                <img src={collage} alt="carpentryPhoto" className="testImage" />
+                            </div>
+                        </div>
                         <Header id="main" />
                     </div>
 

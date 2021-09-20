@@ -39,7 +39,7 @@
 }
 
 .introBlock > div {
-    font-family: var(-- font-primary);
+    font-family: var(--font-primary);
 }
 
 @media (max-width: 1326px) {
