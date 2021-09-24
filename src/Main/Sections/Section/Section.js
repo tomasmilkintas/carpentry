@@ -2,10 +2,20 @@ import React from "react";
 
 import "./Section.css";
 
-const Section = () => {
+const Section = ({ image, title, description, backgroundDarker }) => {
     return (
         <div>
-            <h1>Hi I am a section</h1>
+            <div className="trialDesign" style={{ backgroundColor: backgroundDarker && "#b0aeae" }}>
+                <div className="textTest">
+                    <div className="border">
+                        <h2>{title}</h2>
+                        <p className="textDescr">{description}</p>
+                    </div>
+                </div>
+                <div className="imageTest">
+                    <img src={image} alt="carpentryPhoto" className="testImage" />
+                </div>
+            </div>
         </div>
     );
 };

@@ -4,6 +4,8 @@ import "./Intro.css";
 import carpenter from "../assets/carpenter.jpeg";
 import Button from "./useful/Button/Button";
 
+// import introRect from "../assets/introRect.png";
+
 const Intro = () => {
     return (
         <div className="intro">
