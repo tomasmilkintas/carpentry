@@ -9,6 +9,8 @@ import Intro from "./Main/Intro";
 // import furniture from "./assets/furniture.jpeg";
 // import furniture1 from "./assets/furniture1.jpeg";
 import collage from "./assets/collage.png";
+import collage2 from "./assets/collage2.png";
+import Sections from "./Main/Sections/Sections";
 
 export const GlobalContext = createContext();
 
@@ -52,12 +54,13 @@ const App = () => {
                                 </div>
                             </div>
                             <div className="imageTest">
-                                {/* <img src={furniture} alt="carpentryPhoto" className="testImage" />
-                                <img src={furniture1} alt="carpentryPhoto" className="testImage" /> */}
                                 <img src={collage} alt="carpentryPhoto" className="testImage" />
                             </div>
                         </div>
-                        <Header id="main" />
+
+                        {/* <Sections /> */}
+
+                        {/* <Header id="main" /> */}
                     </div>
 
                     <Footer id="contactUs" />

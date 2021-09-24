@@ -1,7 +1,6 @@
 import React from "react";
 import "./Header.css";
 import Portfolio from "./Portfolio";
-// import HeadingBlobs from "./useful/HeadingBlobs";
 
 import furniture from "./../assets/furniture.jpeg";
 import furniture1 from "./../assets/furniture1.jpeg";
@@ -65,11 +64,6 @@ const Header = () => {
             <div className="link">
                 <a href="#top">Back to top</a>
             </div>
-
-            {/* <HeadingBlobs text="Bespoke furniture" />
-            <HeadingBlobs text="Loft conversions" />
-            <HeadingBlobs text="Flooring, staircases" />
-            <HeadingBlobs text="Kitchens, extensions" /> */}
         </div>
     );
 };
