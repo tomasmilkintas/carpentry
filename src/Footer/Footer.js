@@ -16,10 +16,18 @@ const Footer = () => {
                 </div>
                 <div className="contactDetails">
                     <p>
-                        &#183; <span>Email:</span> milkv60@hotmail.com &#183;
+                        &#183; <span>Email:</span>{" "}
+                        <a className="contactLink" href="mailto:milkv60@hotmail.com">
+                            milkv60@hotmail.com
+                        </a>{" "}
+                        &#183;
                     </p>
                     <p>
-                        &#183; <span>Contact No:</span> +447818443629 &#183;
+                        &#183; <span>Contact No:</span>{" "}
+                        <a className="contactLink" href="tel:+447818443629">
+                            +447818443629
+                        </a>{" "}
+                        &#183;
                     </p>
                     <p>
                         &#183; Based in <span>London, SE area</span> &#183;

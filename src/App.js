@@ -46,21 +46,8 @@ const App = () => {
 
                     <div className="mainBody" id="top">
                         <Intro id="home" />
-                        {/* <div className="trialDesign">
-                            <div className="textTest">
-                                <div className="border">
-                                    <h2>Bespoke furniture</h2>
-                                    <p className="textDescr">Custom pieces for timeless spaces</p>
-                                </div>
-                            </div>
-                            <div className="imageTest">
-                                <img src={collage} alt="carpentryPhoto" className="testImage" />
-                            </div>
-                        </div> */}
 
-                        <Sections />
-
-                        {/* <Header id="main" /> */}
+                        <Sections id="main" />
                     </div>
 
                     <Footer id="contactUs" />

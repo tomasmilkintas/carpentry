@@ -4,11 +4,11 @@ import "./Button.css";
 const Button = ({ text, link }) => {
     return (
         <div>
-            <button className="button">
-                <a className="buttonLink" href={link}>
+            <a className="buttonLink" href={link}>
+                <button className="button">
                     <p className="buttonText">{text}</p>
-                </a>
-            </button>
+                </button>
+            </a>
         </div>
     );
 };

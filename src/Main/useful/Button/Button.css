@@ -3,6 +3,7 @@
     background-color: #555555;
     border-radius: 15px;
     border: none;
+    cursor: pointer;
 }
 
 @media (max-width: 426px) {
@@ -20,6 +21,13 @@
     color: #d3d3d3;
     font-weight: 700;
     font-size: 1vw;
+}
+
+.buttonText:hover,
+.button:hover {
+    color: #cccbcb;
+    transform: scale(1.05);
+    transition: 50ms ease-in-out;
 }
 
 @media (max-width: 426px) {

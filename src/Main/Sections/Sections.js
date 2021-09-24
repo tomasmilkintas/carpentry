@@ -10,7 +10,7 @@ import collage4 from "./../../assets/collage4.png";
 
 const Sections = () => {
     return (
-        <div>
+        <div id="main">
             <Section
                 image={collage7}
                 title="Bespoke furniture"
@@ -19,7 +19,7 @@ const Sections = () => {
             <Section
                 image={collage8}
                 title="Flooring, staircases"
-                description="A stunning statement in any home"
+                description="Stunning statement in any home"
                 backgroundDarker
             />
             <Section
@@ -30,9 +30,12 @@ const Sections = () => {
             <Section
                 image={collage4}
                 title="Kitchens, extensions"
-                description="A modern masterpiece that will stand the test of time"
+                description="Modern masterpieces that will stand the test of time"
                 backgroundDarker
             />
+            {/* <div className="link">
+                <a href="#top">Back to top</a>
+            </div> */}
         </div>
     );
 };

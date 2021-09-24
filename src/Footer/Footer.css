@@ -46,6 +46,11 @@ h1 {
     padding: 1rem;
 }
 
+.contactLink {
+    /* text-decoration: none; */
+    color: white;
+}
+
 @media (max-width: 426px) {
     .contactDetails {
         font-size: 0.9rem;
