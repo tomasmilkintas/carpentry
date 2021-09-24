@@ -19,18 +19,18 @@ const Sections = () => {
             <Section
                 image={collage8}
                 title="Flooring, staircases"
-                description="Custom pieces for timeless spaces"
+                description="A stunning statement in any home"
                 backgroundDarker
             />
             <Section
                 image={collage6}
                 title="Loft conversions"
-                description="Custom pieces for timeless spaces"
+                description="Going above and beyond for you"
             />
             <Section
                 image={collage4}
                 title="Kitchens, extensions"
-                description="Custom pieces for timeless spaces"
+                description="A modern masterpiece that will stand the test of time"
                 backgroundDarker
             />
         </div>

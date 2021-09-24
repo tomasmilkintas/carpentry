@@ -1,10 +1,8 @@
 import React from "react";
 import "./Intro.css";
 
-import carpenter from "../assets/carpenter.jpeg";
+import carpenter from "../assets/carpenter.png";
 import Button from "./useful/Button/Button";
-
-// import introRect from "../assets/introRect.png";
 
 const Intro = () => {
     return (
