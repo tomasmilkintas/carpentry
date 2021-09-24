@@ -12,8 +12,8 @@ const Intro = () => {
                 <div>
                     <h2 className="introHeading">Vacys Milkintas</h2>
                     <p className="introText">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis animi
-                        at ipsam eum natus qui autem! Nemo exercitationem corporis ut?
+                        Bespoke design to your exact specifications. Shape to your vision, shape to
+                        your life.
                     </p>
                     <Button text="GET IN TOUCH" link="#contactUs" />
                 </div>

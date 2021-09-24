@@ -1,26 +1,29 @@
 .button {
-    padding: 1.3rem 3rem;
-    background-color: #727272;
-    border-radius: 30px;
+    padding: 1.5vw 3vw;
+    background-color: #555555;
+    border-radius: 15px;
     border: none;
 }
 
-.buttonLink {
-    color: white;
-    text-decoration: none;
-    font-family: var(--font-primary);
-    font-size: 1.2rem;
-    font-weight: 500;
-}
-
-@media (max-width: 1026px) {
-    .buttonLink {
-        font-size: 1rem;
+@media (max-width: 426px) {
+    .button {
+        padding: 4vw 8vw;
     }
 }
 
+.buttonLink {
+    text-decoration: none;
+}
+
+.buttonText {
+    font-family: var(--font-primary);
+    color: #d3d3d3;
+    font-weight: 700;
+    font-size: 1vw;
+}
+
 @media (max-width: 426px) {
-    .buttonLink {
-        font-size: 0.8rem;
+    .buttonText {
+        font-size: 4vw;
     }
 }

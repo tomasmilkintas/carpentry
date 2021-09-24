@@ -6,7 +6,7 @@ const Button = ({ text, link }) => {
         <div>
             <button className="button">
                 <a className="buttonLink" href={link}>
-                    {text}
+                    <p className="buttonText">{text}</p>
                 </a>
             </button>
         </div>
