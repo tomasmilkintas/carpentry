@@ -1,8 +1,6 @@
 import React from "react";
 import "./Footer.css";
 import imgBG from "./../assets/woodBg.jpeg";
-// import wave from "./../assets/wave.svg";
-// import map from "./../assets/londonMap.png";
 
 const Footer = () => {
     return (
@@ -39,7 +37,7 @@ const Footer = () => {
                         &#169; 2021 &#183; Made by{" "}
                         <span>
                             <a href="https://tommi.netlify.app/" target="_blank" rel="noreferrer">
-                                Tomas Milkintas
+                                T.M.
                             </a>
                         </span>
                     </p>

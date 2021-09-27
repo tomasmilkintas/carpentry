@@ -69,6 +69,13 @@
     }
 }
 
+@media (max-width: 826px) {
+    .introHeading {
+        font-size: 8vw;
+        line-height: 8vw;
+    }
+}
+
 @media (max-width: 426px) {
     .introHeading {
         font-size: 12vw;
@@ -111,6 +118,13 @@
 @media (max-width: 1326px) {
     .introImg {
         width: 22rem;
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 1026px) {
+    .introImg {
+        width: 20rem;
         margin-top: 3rem;
     }
 }

@@ -1,13 +1,18 @@
 .navbar {
     width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    height: 16vh;
+
+    padding: 1% 10%;
     background-color: #555555;
     display: flex;
     flex-direction: row;
 
     font-family: var(--font-primary);
+}
+
+@media (max-width: 426px) {
+    .navbar {
+        padding: 3% 10%;
+    }
 }
 
 .logoContainer {
