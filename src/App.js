@@ -16,7 +16,7 @@ export const GlobalContext = createContext();
 
 const App = () => {
     const [mobileView, setMobileView] = useState(window.innerWidth < 426);
-    const [ipadView, setIpadView] = useState(window.innerWidth < 726);
+    const [ipadView, setIpadView] = useState(window.innerWidth < 766);
 
     const onResize = (e) => {
         let isProcess = false;
@@ -24,7 +24,7 @@ const App = () => {
         isProcess = true;
         requestAnimationFrame(() => {
             setMobileView(window.innerWidth < 426);
-            setIpadView(window.innerWidth < 726);
+            setIpadView(window.innerWidth < 766);
 
             isProcess = false;
         });

@@ -119,6 +119,7 @@ html {
     width: 70%;
     height: auto;
     object-fit: contain;
+    border-radius: 60px;
 }
 
 @media (max-width: 426px) {

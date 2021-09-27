@@ -8,6 +8,9 @@ const Intro = () => {
     return (
         <div className="intro">
             <div className="blob"></div>
+            {/* <div className="blob2">
+                <h1>Bespoke Carpentry</h1>
+            </div> */}
             <div className="introBlock">
                 <div>
                     <h2 className="introHeading">Vacys Milkintas</h2>
