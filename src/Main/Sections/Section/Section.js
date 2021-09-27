@@ -8,8 +8,8 @@ const Section = ({ image, title, description, backgroundDarker }) => {
             <div className="trialDesign" style={{ backgroundColor: backgroundDarker && "#b0aeae" }}>
                 <div className="textTest">
                     <div className="border">
-                        <h2>{title}</h2>
-                        <p className="textDescr">{description}</p>
+                        <h2 className="sectionTextTitle">{title}</h2>
+                        <p className="sectionTextDescr">{description}</p>
                     </div>
                 </div>
                 <div className="imageTest">
