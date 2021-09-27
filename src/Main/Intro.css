@@ -96,6 +96,7 @@
     .introHeading {
         font-size: 12vw;
         line-height: 12vw;
+        padding: 2vw 0vw 2vw 4vw;
     }
 }
 
@@ -129,6 +130,7 @@
         width: 90%;
         font-size: 5vw;
         margin: 3vw 0;
+        padding: 2vw 0vw 2vw 4vw;
     }
 }
 
@@ -139,6 +141,7 @@
     filter: grayscale(1);
     margin-left: 0rem;
     border-radius: 20px;
+    pointer-events: none;
 }
 
 @media (max-width: 1326px) {

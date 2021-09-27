@@ -127,3 +127,26 @@ html {
         width: 100%;
     }
 }
+
+/* scrollable menu to go top / bottom */
+
+.blobs {
+    position: fixed;
+    top: 20vw;
+    right: 7vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.blobs1 {
+    width: 2vw;
+    height: 2vw;
+    background-color: red;
+}
+
+.blobs2 {
+    margin-top: 1vw;
+    width: 2vw;
+    height: 2vw;
+    background-color: green;
+}

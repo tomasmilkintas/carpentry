@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="navbar">
+            <div className="navbar" id="top">
                 <div className="logoContainer">
                     <h2 className="logoHeading">Vacys Milkintas</h2>
                 </div>
@@ -23,7 +23,7 @@ const Navbar = () => {
                     {!global.mobileView && !global.ipadView && (
                         <nav>
                             <ul className="navLinks">
-                                <a href="#home" className="navLink">
+                                <a href="/" className="navLink">
                                     Home
                                 </a>
                                 <a href="#main" className="navLink">
@@ -46,7 +46,7 @@ const Navbar = () => {
                 <div className="navAreaCol">
                     <nav>
                         <ul className="navLinksCol">
-                            <a href="#home" className="navLinkCol" onClick={() => setShown(false)}>
+                            <a href="/" className="navLinkCol" onClick={() => setShown(false)}>
                                 Home
                             </a>
                             <a href="#main" className="navLinkCol" onClick={() => setShown(false)}>

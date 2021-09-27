@@ -33,9 +33,9 @@ const Sections = () => {
                 description="Modern masterpieces that will stand the test of time"
                 backgroundDarker
             />
-            {/* <div className="link">
+            <div className="link">
                 <a href="#top">Back to top</a>
-            </div> */}
+            </div>
         </div>
     );
 };

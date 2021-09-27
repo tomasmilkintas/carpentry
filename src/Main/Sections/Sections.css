@@ -1,20 +1,38 @@
 .link {
-    margin: 5rem auto 0;
+    padding: 2.5% 0;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 426px) {
+    .link {
+        padding: 5% 0;
+    }
 }
 
 .link > a {
     color: #2c2c2c;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 2vw;
     font-weight: 300;
     font-family: var(--font-primary);
 }
 
+@media (max-width: 826px) {
+    .link > a {
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 426px) {
+    .link > a {
+        font-size: 6vw;
+    }
+}
+
 .link > a:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     color: #5d5d5d;
     transition: 50ms ease-in-out;
 }
