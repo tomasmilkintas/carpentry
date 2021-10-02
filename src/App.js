@@ -43,10 +43,6 @@ const App = () => {
             <div className="App">
                 <div>
                     <Navbar id="top" />
-                    {/* <div className="blobs">
-                        <div className="blobs1"></div>
-                        <div className="blobs2"></div>
-                    </div> */}
 
                     <div className="mainBody">
                         <Intro />
